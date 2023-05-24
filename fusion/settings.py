@@ -90,9 +90,7 @@ DATABASES = {
 }
 """
 DATABASES = {
-    'default': dj_database_url.config(
-        default='postgres://postgres:123456@localhost:5432/fusion'
-    )
+    'default': dj_database_url.config()
 }
 
 # Password validation
