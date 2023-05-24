@@ -79,10 +79,18 @@ WSGI_APPLICATION = 'fusion.wsgi.application'
 
 
 DATABASES = {
-    'default': dj_database_url.config(
-        default = 'postgresql://postgres:v6YxJVRAHfuHDr4ofxT9@containers-us-west-98.railway.app:7244/railway'
-    )
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': '',
+        'USER': '',
+        'PASSWORD': '',
+        'HOST': 'localhost',
+        'PORT': '5432'
+    }
 }
+
+
+
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
@@ -145,7 +153,3 @@ DEFAULT_FORM_EMAIL = 'contato@fusion.com.br'
 LOGOUT_REDIRECT_URL = 'index' #após que sair do admin, redirecionar para o index
 
 
-CSRF_TRUSTED_ORIGINS = [
-    'https://my-first-project-production-2746.up.railway.app',
-    
-]
