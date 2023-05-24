@@ -133,18 +133,19 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 #email produção
-
+"""
 EMAIL_HOST = 'localhost'
 EMAIL_HOST_USER = 'no-reply@fusion.com.br'
 EMAIL_PORT = 587
 EMAIL_USE_TSL = True
 EMAIL_HOST_PASSWORD = 'fusion'
 DEFAULT_FORM_EMAIL = 'contato@fusion.com.br'
+"""
 
 LOGOUT_REDIRECT_URL = 'index' #após que sair do admin, redirecionar para o index
 
 
 CSRF_TRUSTED_ORIGINS = [
-    'my-first-project-production-2746.up.railway.app',
-    '*',
+    'https://my-first-project-production-2746.up.railway.app',
+    
 ]
