@@ -90,7 +90,9 @@ DATABASES = {
 }
 """
 DATABASES = {
-    'default': dj_database_url.config()
+    'default': dj_database_url.config(
+        default = 'postgresql://postgres:v6YxJVRAHfuHDr4ofxT9@containers-us-west-98.railway.app:7244/railway'
+    )
 }
 
 # Password validation
