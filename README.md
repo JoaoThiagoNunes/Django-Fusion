@@ -2,7 +2,7 @@
 > :warning: O projeto não está finalizado!
  
 Este site é um projeto de aprendizado para demonstrar meus conhecimentos com Django. <br>
-A ideia surgiu pois precisava concretizar os conceitos do Django, entender melhor os Models, as Views, as configurações de rotas e de formulários, tudo o que um bom Dev tem que saber. 
+A ideia surgiu pois precisava concretizar os conceitos do Django, entender melhor os Models, as Views, os Templates, as configurações de rotas e de formulários, tudo o que um bom Dev tem que saber. 
 
 ## Disponibilidade
 
