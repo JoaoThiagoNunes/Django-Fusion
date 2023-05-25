@@ -8,7 +8,7 @@ A ideia surgiu pois precisava concretizar os conceitos do Django, entender melho
 
 #### O projeto pode ser consultado atráves de dois métodos
 
-1. Acessar este link: <a target='_blank'>https://my-first-project-production-2746.up.railway.app/</a>
+1. Acessar este link: https://my-first-project-production-2746.up.railway.app/
 2. Clonar o repositório.
 
 ## Como usar?
@@ -24,7 +24,7 @@ A ideia surgiu pois precisava concretizar os conceitos do Django, entender melho
 #### Segundo método 
 1. Após acessar o link você verá a página html;
 2. Você pode adicionar novos funcionários, cargos e feedbacks;
-3. Acesse este link: <a target='_blank'>https://my-first-project-production-2746.up.railway.app/admin</a>
+3. Acesse este link: https://my-first-project-production-2746.up.railway.app/admin
 4. Usuário: root@admin <br>Senha: root123456
 5. A seção administrativa é bem intuitiva, basta se atentar bem ao cadastrar algo.
 
